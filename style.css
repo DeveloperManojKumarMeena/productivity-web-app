@@ -1,9 +1,37 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html,body{
+
+html,
+body {
     height: 100%;
     width: 100%;
+    background-color: var(--orange);
+}
+:root{
+    --light: #F9E6A8;
+    --primary: #F2A900;
+    --orange: #CC6F00;
+    --dark: #4D2A00;
+    --white:#f9f9f922;
+}
+
+.glass {
+    height: 100%;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.052);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border: 1px solid var(--white);
+    color: white;
+}
+.heading{
+    padding: 10px 15px;
+    background-color: var(--white);    
+    height: fit-content;
+    width: fit-content;
+    margin: 5px;
+    border-radius: 10px;
 }
